@@ -1,10 +1,10 @@
 <div class="navbar">
-  <a href="/" class="nav-link home">
+  <a [routerLink]="'/'" class="nav-link home">
     <img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" width="150" height="40" title="Home" alt="Home">
   </a>
   <ul>
     <li>
-      <a href="features" title="Features.">
+      <a [routerLink]="'/features'" title="Features.">
         Features
       </a>
     </li>
@@ -32,8 +32,10 @@
   <div class="search-input">
     <input type="search" aria-label="search" placeholder="Search">
   </div>
-  <div>
-    <a href="https://twitter.com/angular" title="Twitter" aria-label="Angular on twitter"></a>
-    <a href="https://github.com/angular/angular" title="GitHub" aria-label="Angular on github"></a>
+  <div class="other-src">
+    <a href="https://twitter.com/angular" title="Twitter" aria-label="Angular on twitter" id="twitter-logo"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/angular/angular" title="GitHub" aria-label="Angular on github" id="github-logo"><i class="fab fa-github"></i></a>
   </div>
 </div>
+
+<router-outlet></router-outlet>

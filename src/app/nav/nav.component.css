@@ -1,12 +1,11 @@
 .navbar {
   position: absolute;
-  top: 0;
+  top: 0.35em;
   left: 0;
   right: 0;
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #1976d2;
   color: white;
   font-weight: 600;
 }
@@ -42,13 +41,22 @@
   padding: 8px 16px;
 }
 
-.navbar #twitter-logo {
-  height: 40px;
-  margin: 0 16px;
+.other-src {
+  display: flex;
 }
 
-.navbar #twitter-logo:hover {
+.navbar #twitter-logo,
+.navbar #github-logo {
+  color: #fff;
+  height: 40px;
+  margin: 0 10px;
+
+}
+
+.navbar #twitter-logo:hover,
+.navbar #github-logo:hover {
   opacity: 0.8;
+  color: #fff;
 }
 
 .navbar .search-input {
