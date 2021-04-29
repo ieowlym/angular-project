@@ -1,0 +1,68 @@
+<div class="container container-top">
+    <div class="padding-15">
+        <div class="flex-row">
+            <div class="animated animated-fadeinup animation-delay-05">
+                <div class="img img-hover">
+                    <img src="https://lendo.chat/img/img9.jpg" alt="i-lendo-chat">
+                    <img class="back-img" src="https://lendo.chat/img/img1.jpg" alt="i-lendo-chat">
+                </div>
+            </div>
+            <div class="opening-text column-centered-flex-left animated animated-fadeinup">
+                <h1>LendoChat - the best experience for your every guest</h1>
+                <p class="small-text">Get ahead of the new age of hospitality and stay close to the daily communication habits of guests in the era of smartphones and online services</p>
+                <button class="cyan-btn">Find out</button>
+            </div>
+        </div>
+        <div class="img-block flex-row">
+            <div class="animated animated-fadeinup animation-delay-1">
+                <div class="img">
+                    <img src="https://lendo.chat/img/img2.jpg" alt="i-lendo-chat">
+                    <img class="back-img" src="/img/img10.jpg" alt="i-lendo-chat">
+                </div>
+            </div>
+            <div class="animated animated-fadeinup animation-delay-15">
+                <div class="img img-hover">
+                    <img src="https://lendo.chat/img/img3.jpg" alt="i-lendo-chat">
+                    <img class="back-img" src="https://lendo.chat/img/img11.jpg" alt="i-lendo-chat">
+                </div>
+            </div>
+            <div class="animated animated-fadeinup animation-delay-2">
+                <div class="img img-hover">
+                    <img src="https://lendo.chat/img/img4.jpg" alt="i-lendo-chat">
+                    <img class="back-img" src="https://lendo.chat/img/img12.jpg" alt="i-lendo-chat">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="description-block" *ngIf="contents.length">
+        <h2 class="animated animated-fadeinup">The smart solution for international hospitality</h2>
+        <h4 class="animated animated-fadeinup">Raise the bar for your hotel services with this holistic platform that will help you capture guest expectations in a <br> timely and accurate manner without any language barriers.</h4>
+        <div class="flex-row dekstop-block">
+            <div class="column-3 animated animation-delay-05 animated-fadeinup"
+            *ngFor="let c of contents">
+                <h3 class="cyan-color"> {{ c.header }} </h3>
+                <p> {{ c.content }} </p> 
+            </div>
+        </div>
+        <div class="mobile-block">
+            <div class="slick-slider slick-initialized" dir="ltr">
+                <div class="slick-list">
+                    <div class="slick-track" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                        <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 0px;">
+                            <div>
+                                <div class="column-3" tabindex="-1" style="width: 100%; display: inline-block;">
+                                    <h2 class="cyan-color">Keeping in touch with guests all the time</h2>
+                                    <p>Stay connected and continue to serve your guests anytime and anywhere. Guests will feel more pleasant and secure than ever knowing that you always get their back and ready to help via LendoChat, given they are enjoying at the hotel spa or having a walk in the city.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 0px;">
+                            <div>
+                                <div class="column-3 animated animated-fadeinup" tabindex="-1" style="width: 100%; display: inline-block;">
+                                    <h2 class="cyan-color">Effortless multilingual communications</h2>
+                                    <p>Understand your guests perfectly with all dialogues auto-translated to their native languages. LendoChat minimizes possible errors that can be caused by verbal communications and makes your guests feel always welcomed to raise their needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="1" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 0px;">
+                            <div><div class="column-3" tabindex="-1" style="width: 100%; display: inline-block;"><h2 class="cyan-color">A complete online hotel guide</h2><p>Present all hotel offers and valuable information in different languages so guests can easily search and request orders on their phones without hassles. LendoChat works like an online shop to create more revenue from additional hotel services.</p></div></div></div><div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 0px;"><div><div class="column-3" tabindex="-1" style="width: 100%; display: inline-block;"><h2 class="cyan-color">Keeping in touch with guests all the time</h2><p>Stay connected and continue to serve your guests anytime and anywhere. Guests will feel more pleasant and secure than ever knowing that you always get their back and ready to help via LendoChat, given they are enjoying at the hotel spa or having a walk in the city.</p></div></div></div><div data-index="3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 0px;"><div><div class="column-3 animated animated-fadeinup" tabindex="-1" style="width: 100%; display: inline-block;"><h2 class="cyan-color">Effortless multilingual communications</h2><p>Understand your guests perfectly with all dialogues auto-translated to their native languages. LendoChat minimizes possible errors that can be caused by verbal communications and makes your guests feel always welcomed to raise their needs.</p></div></div></div><div data-index="4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 0px;"><div><div class="column-3" tabindex="-1" style="width: 100%; display: inline-block;"><h2 class="cyan-color">A complete online hotel guide</h2><p>Present all hotel offers and valuable information in different languages so guests can easily search and request orders on their phones without hassles. LendoChat works like an online shop to create more revenue from additional hotel services.</p></div></div></div><div data-index="5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 0px;"><div><div class="column-3" tabindex="-1" style="width: 100%; display: inline-block;"><h2 class="cyan-color">Keeping in touch with guests all the time</h2><p>Stay connected and continue to serve your guests anytime and anywhere. Guests will feel more pleasant and secure than ever knowing that you always get their back and ready to help via LendoChat, given they are enjoying at the hotel spa or having a walk in the city.</p></div></div></div></div></div><ul class="slick-dots" style="display: block;"><li class=""><button>1</button></li><li class="slick-active"><button>2</button></li><li class=""><button>3</button></li></ul></div></div></div></div>

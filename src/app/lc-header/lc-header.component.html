@@ -1,0 +1,16 @@
+<header class="">
+    <div class="left-section high-centered-flex">
+      <img src="https://lendo.chat/img/icons/logo.svg" alt="lendochat-logo">
+      <span><a class="loga" [routerLink]="'/'">LendoChat</a></span>
+    </div>
+    <div class="right-section high-centered-flex">
+      <a class="nava" [routerLink]="'/algorithm'">Algorithm</a>
+
+      <button class="auth-btn" (click)="openForm()" >Request Info</button>
+      <button class="auth-btn" [routerLink]="'/login'">Log in</button>
+    </div>
+    <lc-feedback 
+        *ngIf="showForm" 
+        [showForm]="showForm"
+        (closeForm)="closeForm($event)"></lc-feedback>
+ </header>
