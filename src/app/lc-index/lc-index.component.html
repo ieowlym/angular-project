@@ -10,7 +10,7 @@
             <div class="opening-text column-centered-flex-left animated animated-fadeinup">
                 <h1>LendoChat - the best experience for your every guest</h1>
                 <p class="small-text">Get ahead of the new age of hospitality and stay close to the daily communication habits of guests in the era of smartphones and online services</p>
-                <button class="cyan-btn">Find out</button>
+                <button class="cyan-btn" [routerLink]="'/algorithm'">Find out</button>
             </div>
         </div>
         <div class="img-block flex-row">
@@ -40,7 +40,7 @@
         <div class="flex-row dekstop-block">
             <div class="column-3 animated animation-delay-05 animated-fadeinup"
             *ngFor="let c of contents">
-                <h3 class="cyan-color"> {{ c.header }} </h3>
+                <h3 class="cyan-color"><span [innerHTML]="c.header | makeBold"></span></h3>
                 <p> {{ c.content }} </p> 
             </div>
         </div>

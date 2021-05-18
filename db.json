@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "clients": [
+    {
+      "id": 1,
+      "name": "Lisa",
+      "room": "601"
+    },
+    {
+      "id": 2,
+      "name": "Qiqi",
+      "room": "708"
+    },
+    {
+      "id": 3,
+      "name": "Xiao",
+      "room": "716"
+    },
+    {
+      "id": 4,
+      "name": "Dotorre",
+      "room": "304"
+    },
+    {
+      "id": 5,
+      "name": "Signora",
+      "room": "308"
+    },
+    {
+      "id": 6,
+      "name": "Bennett",
+      "room": "605"
+    }
+  ]
+}

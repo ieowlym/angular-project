@@ -1,0 +1,15 @@
+<div class="profile">
+    <h1>Admin Profile</h1>
+    <h2>Clients</h2>
+    <div *ngFor="let client of clients | async">
+        <p>
+            <b>Client Name: </b>{{client.name}}
+            <br />
+            <b>Room: </b>{{client.room}}
+        </p>
+        <hr />
+    </div>
+    <br />
+    <h2>Requests</h2>
+    
+</div>
